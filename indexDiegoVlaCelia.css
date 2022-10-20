@@ -1,22 +1,20 @@
-body{
-
-}
-
 header{
 	background-color:  #c42289 ;
 }
 
 header ul{
-	display: inline-block;
+	display: flex;
 	vertical-align: top;
+	text-align: center;
 }
 
 header li{
-	display: inline-block;
+	display: inline-flex;
 	margin: 50px 10px 10px 50px;
 	font-size: 20px;
 	font-family: Verdana;
 	color: whitesmoke;
+
 
 }
 
@@ -27,7 +25,7 @@ header li a{
 
 
 header a:hover{
-	font-family: Comic Sans Ms;
+	font-family: Arial;
 	font-style: italic;
 	font-weight: bold;
 }
@@ -36,17 +34,23 @@ header a:hover{
 .equipe{
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
+	color: black;
+	text-align: center;
+
 }
 
- ul li{
+
+
+ul li{
 	list-style: none;
 	line-height: 1.5;
-
+	font-family: helvetica;
 }
 
 img{
-	width: 30%;
-	display: flex;
+	width: 50%;
+	display: block;
+	margin: auto;
 }
 
 #imgcabecalho{
@@ -56,5 +60,3 @@ img{
 #imgrodape{
 	width: 100%;
 }
-
-
