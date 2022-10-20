@@ -1,0 +1,60 @@
+body{
+
+}
+
+header{
+	background-color:  #c42289 ;
+}
+
+header ul{
+	display: inline-block;
+	vertical-align: top;
+}
+
+header li{
+	display: inline-block;
+	margin: 50px 10px 10px 50px;
+	font-size: 20px;
+	font-family: Verdana;
+	color: whitesmoke;
+
+}
+
+header li a{
+	text-decoration: none;
+	color: White;
+}
+
+
+header a:hover{
+	font-family: Comic Sans Ms;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+.equipe{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+ ul li{
+	list-style: none;
+	line-height: 1.5;
+
+}
+
+img{
+	width: 30%;
+	display: flex;
+}
+
+#imgcabecalho{
+	width: 10%;
+}
+
+#imgrodape{
+	width: 100%;
+}
+
+
